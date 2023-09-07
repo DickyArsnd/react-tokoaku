@@ -1,0 +1,77 @@
+.form-login {
+    margin-bottom: -25rem;
+}
+.form {
+    margin-top: 20px;
+    padding-left: 55rem;
+    /* border: 2px solid red; */
+    /* position: absolute; */
+ }
+ 
+ .border {
+     border: 8px solid gray;
+     border-radius: 5px;
+     width: 390px;
+     padding-top: 30px;
+     text-align: center;
+     margin-top: -23rem;
+ }
+ 
+ .img {
+     width: 25rem;
+     height: 20rem;
+     margin-left: -40rem;
+     margin-bottom: -15rem;
+     margin-top: 5rem;
+ }
+ 
+ .border h3 {
+     text-align: center;
+ }
+ 
+         /* input data */
+ .wrapper {
+     width: 280px;
+     background: #fff;
+     padding: 20px;
+     box-shadow: 0px 0px 10px rgba(0,0,0,0,1);
+ }
+ 
+ .wrapper .input-data {
+     height: 40px;
+     width: 100%;
+     margin-left: 3.5rem;
+     position: relative;
+ }
+ 
+ .wrapper .input-data input {
+     height: 100%;
+     width: 100%;
+     border: none;
+     font-size: 17px;
+     border-bottom: 2px solid silver;
+ }
+ 
+ .input-data input:focus ~ label,
+ .input-data input:focus ~ label {
+     transform: translateY(-30px);
+     font-size: 15px;
+     color: blue;
+ }
+ 
+ .wrapper .input-data label {
+     position: absolute;
+     bottom: 10px;
+     left: 0;
+     color: gray;
+     pointer-events: none;
+ }
+ 
+ .daftar {
+     border: 5px solid gray;
+     border-radius: 5px;
+     padding: 17px;
+     text-align: center;
+     margin-top: 2rem;
+ }
+ 
