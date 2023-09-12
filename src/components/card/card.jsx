@@ -4,12 +4,9 @@ import './card.css'
 const Card = () => {
     return(
         <>
-        <div className="kategori ml-[100px] mb-[20px] bg-sky-400 w-[200px] rounded-lg h-[30px] text-center text-white">
-            <h1 className='text-[21px]'>kategori</h1>
-        </div>
-        <div className="card border-2 border-black rounded-lg w-[330px] ml-[100px]" >
+        <div className="card border-2 border-black rounded-lg w-[290px] ml-[30px]" >
             <div className="image ">
-                <img src="./assets/img/float.png" alt="" className='h-[250px]'/>
+                <img src="./assets/img/tablet.png" alt="" className='h-[200px]'/>
             </div>
             <div className="judul ml-[15px]">
                 <h1 className='font-bold'>Product HP terbaru</h1>

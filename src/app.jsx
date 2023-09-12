@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./pages/login/login";
 import Register from "./pages/register/register";
 import Home from "./pages/homepage/homepage";
+import Checkout from "./pages/keranjang/keranjang";
 import './index.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </BrowserRouter>
   );
