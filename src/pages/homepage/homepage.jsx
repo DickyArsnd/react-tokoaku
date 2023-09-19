@@ -4,6 +4,7 @@ import { Navigation } from 'swiper/modules';
 import Banner from '../../components/banner/banner'
 import Card from '../../components/card/card';
 import Footer2 from '../../layout/footer2';
+import Kategori from '../../components/kategori/kategori';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -16,6 +17,7 @@ function Home() {
         <>
         <Header />
         <Banner />
+        <Kategori />
         <hr /> <br />
         <div className="kategori ml-[50px] mb-[20px] bg-sky-400 w-[200px] rounded-lg h-[30px] text-center text-white">
             <h1 className='text-[21px]'>kategori</h1>

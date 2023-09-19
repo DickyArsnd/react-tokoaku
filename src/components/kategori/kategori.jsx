@@ -1,8 +1,9 @@
-import React from 'react'
-import './card.css'
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // Import stylesheet
+import { Carousel } from 'react-responsive-carousel';
 
-const Card = () => {
-    return(
+function Kategori() {
+  return (
         <>
         <div className="card shadow-md border-2 border-black rounded-lg w-[290px] ml-[30px]" >
             <div className="image ">
@@ -21,9 +22,6 @@ const Card = () => {
                 </div>
             </div>
         </div>
-        
         </>
-    )
-}
-
-export default Card;
+  )};
+export default Kategori;

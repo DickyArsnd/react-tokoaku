@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Khausan Script';
+    src: url('path/to/khausan-script.woff2') format('woff2'),
+         url('path/to/khausan-script.woff') format('woff');
+    /* Tambahkan format font lain jika diperlukan */
+  }
+  
+  h3 {
+    font-family: 'Khausan Script', cursive; /* Menggunakan "Khausan Script" sebagai font */
+    /* Aturan CSS lainnya */
+  }
+  
 .form-login {
     margin-bottom: -25rem;
 }

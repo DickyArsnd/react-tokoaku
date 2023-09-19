@@ -1,15 +1,16 @@
 import React from 'react'
+import './header.css';
 import { FaFacebook, FaInstagram, FaTwitterSquare, FaTelegram, FaGooglePlay, FaApple } from 'react-icons/fa';
 
 function Footer2(params) {
     return (
      
         <>
-            <footer className="px-20  pt-20 bg-[#E6F1FF]">
+            <footer className="px-20  pt-20 bg-[#E6F1FF] mt-10">
                 <div className="container flex ">
                     <div className="w-full flex ">
                         <div className="w-1/2">
-                            <h2 className="text-3xl font-kaushan text-primary font-semibold">Tokoku</h2>
+                            <h1 className="text-3xl font-kaushan text-primary font-semibold">Tokoku</h1>
                             <h3 className="text-sm mt-2">Tokoku 2023</h3>
                             <h3 className="text-sm ">All Right served</h3>
                         </div>

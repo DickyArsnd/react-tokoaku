@@ -4,6 +4,7 @@ import Login from "./pages/login/login";
 import Register from "./pages/register/register";
 import Home from "./pages/homepage/homepage";
 import Checkout from "./pages/keranjang/keranjang";
+import Pesanan from "./pages/Pesanan/pesanan"
 import './index.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/register" element={<Register/>} />
         <Route path="/login" element={<Login />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/pesanan" element={<Pesanan/>} />
       </Routes>
     </BrowserRouter>
   );

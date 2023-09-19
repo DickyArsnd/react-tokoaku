@@ -8,16 +8,12 @@ const Keranjang = () => {
 
     return(
         <>
-
-         <div className="kategori ml-[50px] mb-[20px] mt-[50px] bg-sky-400 w-[200px] rounded-lg h-[30px] text-center text-white">
-             <h1 className='text-[21px]'>keranjang</h1>
-        </div>
-        <hr />
-        <div className="bg-sky-400 w-[500px] h-[200px] ml-[60px] flex">
-            <div className="cards flex" >
-                    <img src="./assets/img/laptop.png" alt="banner" className="w-[225px] h-[225px] flex"/>
-                <div className= "">                    
-                    <p>infinix Smart 5</p>
+      
+        <div className="w-1/3 p-2 ml-[60px] flex shadow-lg">
+            <div className="cards flex border-2 p-5" >
+                    <img src="./assets/img/laptop.png" alt="banner" className="w-[225px] h-[225px] flex "/>
+                <div className= "ml-8 mt-9 p-[10px]">                    
+                    <b><p>infinix Smart 5</p></b>
                     <h1>HP</h1>
                     <p className="">10000</p>
                     <div className="flex">
@@ -25,7 +21,7 @@ const Keranjang = () => {
                  <p>{count}</p>
                     <button onClick={() => setCount(count + 1)}>+</button> 
                     </div>
-                    <button>Cancel</button>
+                    <button className="mt-[30px] bg-[#E6F1FF] w-[130px]">Cancel</button>
 
                 </div>
             </div>
