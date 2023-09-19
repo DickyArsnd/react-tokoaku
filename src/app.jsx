@@ -5,6 +5,7 @@ import Register from "./pages/register/register";
 import Home from "./pages/homepage/homepage";
 import Checkout from "./pages/keranjang/keranjang";
 import Pesanan from "./pages/Pesanan/pesanan"
+import AboutTokoku from "./pages/about/about";
 import './index.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/pesanan" element={<Pesanan/>} />
+        <Route path="/about" element={<AboutTokoku/>} />
       </Routes>
     </BrowserRouter>
   );

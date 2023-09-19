@@ -14,7 +14,7 @@ function Header() {
         <div className="flex flex-wrap"><FaInfoCircle size={25}/><a href="/about">About</a></div>
         <div className="flex flex-wrap">
           <FaShoppingCart size={25}/>
-          <a href="/checkout">Keranjang</a> {/* Menggunakan ikon Keranjang */}
+          <a href="/checkout">Keranjang</a> 
         </div>
       </div>
       <div className="profil">

@@ -17,7 +17,9 @@ function Home() {
         <>
         <Header />
         <Banner />
-        <Kategori />
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper" slidesPerView={4}>
+        <SwiperSlide><Kategori /></SwiperSlide>
+        </Swiper>
         <hr /> <br />
         <div className="kategori ml-[50px] mb-[20px] bg-sky-400 w-[200px] rounded-lg h-[30px] text-center text-white">
             <h1 className='text-[21px]'>kategori</h1>
