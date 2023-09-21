@@ -1,55 +1,48 @@
-import React from 'react';
-
-function FormPesanan() {
- 
+function CardPesanan() {
   return (
-    <div className="w-9/12 ml-[10rem] p-6 shadow-lg mt-20" >
-      <h1 className="text-2xl font-bold mb-4">Detail Pesanan</h1>
-      <form>
-        <div className="mb-4 w-5/6 shadow-md" >
-          <label className="block text-gray-700 text-sm font-bold mb-2">
-            Barang yang di pesan
+    <>
+      <div className="w-full">
+      <div className="border-y-2 m-4 py-5 px-48">
+        <div className="bg-slate-100 p-9  rounded-lg">
+          <h1 className="font-semibold">Produk</h1>
+          <label className="flex items-center justify-between my-2">
+            <span>
+              <h4>Infinix Inbook</h4>
+            </span>
+            <p>2 X</p>
+            <p>Rp 3.000.000</p>
           </label>
-          <div>
-          </div>
-          <div>
-            <label className="items-center">
-              <span className="ml-2">Infinix Inbook X2 11th Gen I3 1115G4 8GB 256GB SSD 14.0FHD IPS 100SRGB</span>
+          <label className="flex items-center justify-between my-2">
+            <span>
+              <h4>Tablet Samsung</h4>
+            </span>
+            <p className="m-2 ml-0">1 X</p>
+            <p>Rp 2.000.000</p>
+          </label><hr />
+          <label className="flex items-center justify-between my-2">
+            <span>
+              <b><span>JASA PENGIRIMAN</span></b><br /><br />
+              <p className="mt-2">EXPRESS</p>
+            </span>
+            <p className="mt-14">Rp 25.000</p>
+          </label><hr />
+        </div>
+        <div className="py-3 bg-slate-100 rounded-3xl  mt-4 p-4">
+          <div className="flex items-center">
+            <label htmlFor="pesan" className="block font-semibold mr-2">
+            Total Pembayaran
             </label>
-            <label className="items-center ml-[3.8rem]">
-              <span className="ml-2">Rp5.598.000</span>
-            </label>
+            <b><p className="ml-96">Rp. 5.025.000</p></b>
           </div>
         </div>
-          <label className='font-bold block text-gray-700 text-sm'>
-            Opsi pengiriman
-          </label>
-          <label className=''>
-            <span>Si Cepat</span>
-          </label>
-          <label className='items-center ml-[3.8rem] right-0'>
-            <span>RP.10.000</span>
-          </label>
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2">
-            Pesanan:
-          </label>
-          <p className="text-xl text-blue-500"></p>
+        <div className="py-3 bg-slate-100 rounded-3xl  mt-4 p-4">
+          <div className="flex items-center">
+            <b><button className="ml-96">Bayar</button></b>
+          </div>
         </div>
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" >
-            Total Pesanan:
-          </label>
-          <p className="text-2xl text-blue-700 font-bold"></p>
-        </div>
-        <div className="mb-4 ">
-          <label className="block text-gray-700 text-sm font-bold mb-2" >
-          </label>
-          <button className="text-2xl shadow-md w-5/6"> Buat Pesanan</button>
-        </div>
-      </form>
+      </div>
     </div>
+    </>
   );
 }
-
-export default FormPesanan;
+export default CardPesanan;
