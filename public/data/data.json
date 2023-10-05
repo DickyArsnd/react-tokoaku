@@ -1,0 +1,32 @@
+{
+    "products" : [
+        {
+            "nama" : "laptop",
+            "urlPoster" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.postermywall.com%2Findex.php%2Fart%2Ftemplate%2Fb0418271ef0fd3359c6ceaaa9e41b64b%2Fgaming-laptop-template-design&psig=AOvVaw2_HfYAAklf-SUdY-2ly9xx&ust=1696391955912000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCmxcD-2IEDFQAAAAAdAAAAABAE",
+            "price" : "4500000",
+            "stock" : 10,
+            "desc" : "Laptop murah kualiatas gak murahan"
+        },
+        {
+            "nama" : "handphone",
+            "urlPoster" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pinterest.com%2Fraunaq637%2Fdesign-poster-handphone%2F&psig=AOvVaw1x8Bh_AiYkwkpreW0f9sHl&ust=1696392006698000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNiAuNn-2IEDFQAAAAAdAAAAABAJ",
+            "price" : "1500000",
+            "stock" : 100,
+            "desc" : "hape murah kualiatas gak murahan"
+        },
+        {
+            "nama" : "Tablet",
+            "urlPoster" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftekno.kompas.com%2Fread%2F2022%2F02%2F22%2F09030067%2Fini-dia-penampakan-resmi-tablet-oppo-pad&psig=AOvVaw3nOjhPgZpFeXeoEHqt8DrM&ust=1696392041292000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKCi9ej-2IEDFQAAAAAdAAAAABAJ",
+            "price" : "25000000",
+            "stock" : 30,
+            "desc" : "Tablet murah kualiatas gak murahan"
+        },
+        {
+            "nama" : "Komputer",
+            "urlPoster" : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-vector%2Fgaming-computer-sale-promotion-social-media-post_22204626.htm&psig=AOvVaw3hZsMU_MPvMik9n6kq0pAx&ust=1696392090563000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMiu6oD_2IEDFQAAAAAdAAAAABAE",
+            "price" : "10000000",
+            "stock" : 200,
+            "desc" : "Komputer murah kualiatas gak murahan"
+        }
+    ]
+}

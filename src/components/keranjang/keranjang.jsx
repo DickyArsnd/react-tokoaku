@@ -4,7 +4,7 @@ import './keranjang.css'
 
 const Keranjang = () => {
 
-    const [count, setCount] = useState(0); // contoh inisialisasi state dengan nilai awal 0
+    const [count, setCount] = useState(0); 
 
     return(
         <>
@@ -18,7 +18,7 @@ const Keranjang = () => {
                     <p className="">10000</p>
                     <div className="flex">
                     <button onClick={() => setCount(count - 1)} className="flex">-</button> 
-                 <p>{count}</p>
+                    <p>{count}</p>
                     <button onClick={() => setCount(count + 1)}>+</button> 
                     </div>
                     <button className="mt-[30px] bg-[#E6F1FF] w-[130px]">Cancel</button>
